@@ -1,0 +1,22 @@
+{
+    "name": "Example Project",
+    "version": 1.0,
+    "configurations": [
+        {
+            "debug": true,
+            "logLevel": "verbose"
+        },
+        {
+            "debug": false,
+            "logLevel": "error"
+        }
+    ],
+    "dependencies": {
+        "libraryA": "1.2.3",
+        "libraryB": "4.5.6"
+    },
+    "features": {
+        "experimental": false,
+        "multiThreading": true
+    }
+}
